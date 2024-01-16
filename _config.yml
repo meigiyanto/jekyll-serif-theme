@@ -19,6 +19,8 @@ collections:
     sort_by: weight
   team:
     output: true
+  authors:
+    output: true
 
 defaults:
   - scope:
@@ -31,6 +33,20 @@ defaults:
       type: "team"
     values:
       layout: "team"
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
 sass:
   style: compressed # possible values: nested expanded compact compressed
