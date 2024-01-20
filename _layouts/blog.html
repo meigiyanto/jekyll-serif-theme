@@ -1,6 +1,7 @@
 ---
+title: Contact
 layout: default
-bodyClass: "page-basic"
+bodyClass: "page-blog"
 ---
 
 <div class="container-fluid pb-6 pt-6 pt-md-10 pb-md-10">
@@ -8,7 +9,18 @@ bodyClass: "page-basic"
         <div class="col-12 col-md-8">
             <div class="service service-single">
                 <h1 class="title">{{page.title}}</h1>
-                <div class="content">{{content}}</div>
+                <div class="content mt-4">
+		<ul class="list-unstyled">
+		  {% for post in site.posts %}
+		  <li>
+		    <h2>
+		      <a href="{{ post.url }}">{{ post.title }}</a>
+		    </h2>
+		    <p>{{ post.excerpt }}</p>
+		  </li>
+		  {% endfor %}
+		</ul>
+		</div>
             </div>
         </div>
     </div>
