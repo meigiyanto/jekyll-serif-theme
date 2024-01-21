@@ -1,6 +1,9 @@
 ---
 layout: post
-author: Gianto
+title: Third Post
+date: 2024-01-21T16:18:48.462Z
+thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Kiwi_%28Actinidia_chinensis%29_2_Luc_Viatour.jpg/1200px-Kiwi_%28Actinidia_chinensis%29_2_Luc_Viatour.jpg
+author: Mei Giyanto
 ---
 
 Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
